@@ -1,117 +1,97 @@
-SQL – Pizza Hut Sales Analysis
+# 🍕 SQL – Pizza Hut Sales Analysis
 
-This project examines Pizza Hut sales data using SQL to identify revenue drivers, ordering patterns, category trends, and overall business performance.
+A SQL-based analysis of Pizza Hut's sales data to identify revenue drivers, top-performing items, time-based trends, and customer ordering behavior.
 
-Objectives:
+---
 
-Find top-selling pizzas and high-value items.
+## 📌 Project Objective
+- Identify top-selling pizzas and high-value items  
+- Analyze ordering patterns (time, size, category)  
+- Evaluate revenue trends and category-level performance  
+- Convert raw transactional data into actionable business insights  
 
-Analyze order timing and size preferences.
+---
 
-Review category-level performance.
-
-Identify revenue trends over time.
-
-Convert raw order data into usable business insights.
-
-Dataset
-
+## 🗂 Dataset Overview
 Tables used:
-pizzas, pizza_types, orders, order_details
+- `pizzas`
+- `pizza_types`
+- `orders`
+- `order_details`
 
-Tool: MySQL Workbench
+Tool Used: **MySQL Workbench**
 
-Key Metrics
+---
 
-Total Revenue: $817,860.05
+## 📊 Key Metrics
+- **Total Revenue:** $817,860.05  
+- **Total Orders:** 21,350  
+- **Avg Daily Orders:** 138.47  
+- **Most Ordered Size:** Large (18,956 orders)  
+- **Peak Ordering Time:** 6 PM – 8 PM  
 
-Total Orders: 21,350
+### 🏆 Top 5 Pizzas by Quantity
+1. Classic Deluxe  
+2. Barbecue Chicken  
+3. Hawaiian  
+4. Pepperoni  
+5. Thai Chicken  
 
-Average Daily Orders: 138.47
+### 🥗 Category-wise Quantity
+- Classic: 14,888  
+- Supreme: 11,987  
+- Veggie: 11,649  
+- Chicken: 11,050  
 
-Most Ordered Size: Large (18,956 orders)
+---
 
-Peak Time: 6 PM to 8 PM
+## 🧪 Analysis Performed
 
-Top 5 pizzas by quantity:
+### **Basic**
+- Total orders & revenue  
+- Most ordered size  
+- Top 5 pizzas  
+- Most expensive pizza  
 
-Classic Deluxe
+### **Intermediate**
+- Quantity by category  
+- Hour-wise order trends  
+- Average daily orders  
+- Revenue by pizza type  
 
-Barbecue Chicken
+### **Advanced**
+- Cumulative revenue  
+- Revenue contribution analysis  
+- Top pizzas by revenue per category  
 
-Hawaiian
+---
 
-Pepperoni
+## 💡 Key Insights
+- Large-sized pizzas dominate revenue and quantity  
+- Evening hours contribute the highest order volume  
+- A small set of pizzas drive majority of revenue  
+- Classic & Veggie categories sell higher in volume  
+- Stable revenue pattern with consistent demand  
 
-Thai Chicken
+---
 
-Category-wise quantity:
+## 🎯 Recommendations
+- Promote top-selling pizzas with digital offers  
+- Stock more Large pizzas during peak hours/weekends  
+- Run combo deals between 6 PM – 8 PM  
+- Apply selective discounts on slow-moving premium items  
+- Use time-based trends for targeted marketing  
 
-Classic: 14,888
+---
 
-Supreme: 11,987
+## ✅ Conclusion
+This project demonstrates how SQL analytics can uncover customer behavior, ordering patterns, and revenue insights.  
+The findings help optimize **menu strategy, pricing, inventory planning, and marketing decisions**.
 
-Veggie: 11,649
+---
 
-Chicken: 11,050
+## 📁 Project Files
+- SQL Queries  
+- Dataset (CSV)  
+- Summary Insights  
 
-Analysis Performed
-Basic:
-
-Total orders
-
-Revenue calculation
-
-Most expensive pizza
-
-Most ordered size
-
-Top 5 pizzas
-
-Intermediate:
-
-Quantity by category
-
-Hour-wise order trends
-
-Category distribution
-
-Average daily orders
-
-Revenue by pizza type
-
-Advanced:
-
-Revenue contribution analysis
-
-Cumulative revenue
-
-Top 3 pizzas by revenue in each category
-
-Key Insights:
-
-Large-sized pizzas dominate sales.
-
-Evening hours drive maximum orders.
-
-A small set of pizzas generate most revenue.
-
-Revenue growth is stable across the dataset.
-
-Veg and Classic categories sell in higher volume than Non-Veg.
-
-Recommendations:
-
-Push combo offers during peak hours.
-
-Promote top-selling pizzas on digital channels.
-
-Stock Large pizzas heavily on weekends.
-
-Offer selective discounts on slow-moving premium items.
-
-Use time-based performance for targeted promotions.
-
-Conclusion:
-
-SQL analysis exposes clear patterns in customer behavior, pizza preferences, and revenue flow. These insights help improve pricing, menu decisions, and marketing strategy.
